@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: 'shauryacodes',
-  url: 'https://shauryacodes.xyz',
+  name: 'shouriyacodes',
+  url: 'https://shouriya.tech',
   description: 'Portfolio of Shouriya Tayal — Backend & ML Engineer building low-latency, production-grade systems.',
   keywords: [
     'Shouriya Tayal',

@@ -37,7 +37,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: 'https://genaff.shauryacodes.xyz/',
+      live: 'https://genaff.vercel.app/',
       github: 'https://github.com/iSHOURIYA',
     },
   },

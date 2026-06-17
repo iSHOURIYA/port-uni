@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: 'Shouriya Tayal',
-      url: 'https://shauryacodes.xyz',
+      url: 'https://shouriya.tech',
     },
   ],
   creator: 'Shouriya Tayal',
