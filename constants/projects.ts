@@ -1,11 +1,11 @@
 export const projects = [
-  {
-    title: 'GenAff — AI API Gateway Platform [Currently Building]',
+{
+    title: 'GenAff — AI API Gateway Platform',
     slug: 'genaff',
     tagline:
       'Making AI affordable — a unified API gateway that lets developers start using AI APIs with as little as ₹10.',
     overview:
-      'GenAff is an AI API gateway platform designed to make AI usage affordable and accessible for developers. Most AI platforms require a minimum $5–$10 top-up, creating a barrier for students and developers who want to experiment with AI APIs. GenAff solves this by enabling developers to start using AI APIs with very small amounts (₹10) through a unified API. The platform features multi-provider routing (OpenAI, Gemini, DeepSeek), wallet-based billing with micro-transactions, dynamic request routing with provider abstraction, API key management, per-request cost tracking, rate limiting, and a developer dashboard with an API playground.',
+      'GenAff is an AI API gateway platform designed to make AI usage affordable and accessible for developers. Most AI platforms require a minimum $5–$10 top-up, creating a barrier for students and developers who want to experiment with AI APIs. GenAff solves this by enabling developers to start using AI APIs with very small amounts (₹10) through a unified API. The platform features multi-provider routing (OpenAI, Gemini, DeepSeek), wallet--based billing with micro-transactions, dynamic request routing with provider abstraction, API key management, per-request cost tracking, rate limiting, and a developer dashboard with an API playground.',
     features: [
       'Multi-provider AI routing (OpenAI, Gemini, DeepSeek)',
       'Wallet-based billing system with micro-transactions (start from ₹10)',
@@ -37,9 +37,10 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: 'https://genaff.vercel.app/',
-      github: 'https://github.com/iSHOURIYA',
+      live: 'https://genaff.shouriya.tech',
+      github: 'https://github.com/iSHOURIYA/GenAff',
     },
+  },
   },
   {
     title: 'FraudNet.AI',
@@ -131,6 +132,52 @@ export const projects = [
     },
   },
 
+  {
+    title: 'AI Investment Research Agent',
+    slug: 'ai-investment-agent',
+    tagline:
+      'AI-powered investment research platform — search any public company and get an Invest/Pass decision with financial data and news analysis.',
+    overview:
+      'A production-ready AI investment research agent built with a Next.js 14 frontend and FastAPI backend. The system accepts a company name, gathers financial data via yfinance and news via DuckDuckGo, then uses an LLM (OpenAI GPT-3.5-turbo or Groq Llama 3) to return an Invest or Pass decision with detailed reasoning. Features JWT authentication, portfolio tracking, research history with pagination, and a neo-brutalist UI with dark mode support.',
+    features: [
+      'AI-powered Invest/Pass decision for any public company',
+      'Real-time financial data via yfinance (price, P/E, market cap, revenue growth)',
+      'News and web data via DuckDuckGo search',
+      'LLM-powered reasoning with OpenAI GPT-3.5-turbo or Groq Llama 3',
+      'JWT authentication with signup/login flows',
+      'Portfolio tracking — create portfolios, add/remove holdings',
+      'Paginated research history with search and deletion',
+      'Neo-brutalist UI with dark mode, Framer Motion animations',
+    ],
+    techStack: [
+      'Next.js 14',
+      'FastAPI',
+      'TypeScript',
+      'Python',
+      'LangChain',
+      'yfinance',
+      'DuckDuckGo Search',
+      'SQLite',
+      'JWT',
+    ],
+    challenges: [
+      'Designing a linear AI pipeline that gracefully handles partial tool failures.',
+      'Implementing unified API abstraction across OpenAI and Groq providers.',
+      'Building a responsive neo-brutalist UI with smooth Framer Motion animations.',
+      'Securing JWT auth with proper password hashing and token expiration.',
+    ],
+    learnings: [
+      'Built an AI agent pipeline with tool orchestration and JSON validation.',
+      'Implemented full-stack auth with JWT and SQLite storage.',
+      'Designed a neo-brutalist design system with dark mode support.',
+      'Integrated multiple LLM providers with fallback support.',
+    ],
+    feedback: true,
+    links: {
+      live: 'https://insideiim.shouriya.tech',
+      github: 'https://github.com/iSHOURIYA/ai-investment-agent',
+    },
+  },
   {
     title: 'Quanta Ballet — Distributed Voting System',
     slug: 'quanta-ballet',
