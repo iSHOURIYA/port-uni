@@ -19,11 +19,7 @@ const IntroductionPage = async () => {
           Backend & ML Engineer building low-latency, production-grade systems
         </PageHeaderHeading>
         <PageHeaderDescription>
-          Building real-time inference systems with sub-200ms latency,
-          blockchain-backed data platforms, and production-grade APIs. Currently
-          Previously a Data Science Intern at Infosys Springboard working on crowd density
-          estimation with CSRNet/MCNN, and Founder & COO of ECHO Tech leading
-          800+ participant hackathons.
+          Building production-grade backend systems, AI-powered applications, and real-time ML inference APIs. Previously a Data Science Intern at Infosys Springboard, where I developed crowd density estimation systems using CSRNet, FastAPI, and Docker. Also serve as Founder & COO of ECHO Tech, leading technical events and hackathons with 800+ participants.
         </PageHeaderDescription>
         <PageHeaderDescription className="flex items-center gap-2 text-sm">
           <MapPin className="size-4" />

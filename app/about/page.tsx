@@ -14,28 +14,27 @@ const AboutMePage = () => {
           Systems builder, not just a coder.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a B.Tech CSE student at Lovely Professional University, currently
-          Currently a Data Science Intern at Infosys Springboard (Feb–Apr 2026),
-          having built DeepVision Crowd Monitor — a real-time crowd density
-          estimation system using CSRNet and MCNN architectures in PyTorch,
-          trained on the ShanghaiTech dataset with OpenCV preprocessing,
-          heatmap overlays, and Flask/Streamlit dashboards.
+          I am a final-year B.Tech Computer Science student at Lovely
+          Professional University with a passion for backend engineering and
+          AI-powered applications. Previously a Data Science Intern at Infosys
+          Springboard, where I built DeepVision Crowd Monitor using CSRNet,
+          FastAPI, React, OpenCV, and Docker for real-time crowd density
+          estimation.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          I build production-grade systems that solve real problems. FraudNet.AI
-          processes financial transactions with sub-200ms inference and 94.2%
-          accuracy. DocPat uses Solidity smart contracts and IPFS for
-          decentralized medical records with end-to-end encryption. Quanta
-          Ballet is a distributed voting system on Hyperledger Fabric with
-          cryptographic attack resistance.
+          I enjoy building production-ready software that solves real
+          problems—from AI infrastructure and API platforms to machine learning
+          systems. My projects include GenAff, a multi-provider AI API gateway
+          with billing and analytics, FraudNet.AI, a real-time fraud detection
+          platform, and Quanta Ballot, a blockchain-based voting system.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          As Founder & COO of ECHO Tech Organization, I have led hackathons with
-          800+ participants, managed sponsorships and logistics, and mentored
-          students in backend development, machine learning, and deployment
-          pipelines.
+          Beyond development, I serve as Founder & COO of ECHO Tech
+          Organization, leading hackathons and technical events with 800+
+          participants while mentoring students in backend development, AI/ML,
+          and software engineering.
         </PageHeaderDescription>
       </PageHeader>
 
