@@ -21,7 +21,7 @@ const IntroductionPage = async () => {
         <PageHeaderDescription>
           Building real-time inference systems with sub-200ms latency,
           blockchain-backed data platforms, and production-grade APIs. Currently
-          a Data Science Intern at Infosys Springboard working on crowd density
+          Previously a Data Science Intern at Infosys Springboard working on crowd density
           estimation with CSRNet/MCNN, and Founder & COO of ECHO Tech leading
           800+ participant hackathons.
         </PageHeaderDescription>

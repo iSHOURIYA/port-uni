@@ -17,7 +17,7 @@ const EducationPage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           Pursuing B.Tech in Computer Science & Engineering at Lovely
-          Professional University, Phagwara with a CGPA of 7.24. Key ML
+          Professional University, Phagwara with a CGPA of 7.39. Key ML
           coursework includes Machine Learning I (O grade), Machine Learning II
           (A), Foundations (A+), and NLP (A).
         </PageHeaderDescription>

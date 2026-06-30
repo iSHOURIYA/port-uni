@@ -15,8 +15,8 @@ const AboutMePage = () => {
         </PageHeaderHeading>
         <PageHeaderDescription>
           I am a B.Tech CSE student at Lovely Professional University, currently
-          interning as a Data Science Intern at Infosys Springboard, where I am
-          building DeepVision Crowd Monitor — a real-time crowd density
+          Currently a Data Science Intern at Infosys Springboard (Feb–Apr 2026),
+          having built DeepVision Crowd Monitor — a real-time crowd density
           estimation system using CSRNet and MCNN architectures in PyTorch,
           trained on the ShanghaiTech dataset with OpenCV preprocessing,
           heatmap overlays, and Flask/Streamlit dashboards.
