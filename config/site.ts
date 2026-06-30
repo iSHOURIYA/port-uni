@@ -24,7 +24,7 @@ export const siteConfig = {
     github: 'https://github.com/iSHOURIYA',
     githubProfile: 'https://github.com/iSHOURIYA',
     linkedin: 'https://www.linkedin.com/in/shaurya-wizard/',
-    resume: 'https://drive.google.com/file/d/1baqPAkz5vHXJ3z4hbUCGQAlWynALCspW/view?usp=sharing', // Add your resume link here
+    resume: 'https://drive.google.com/file/d/1ReUhGvZ0BRuMK6nOiyWMX16Ni9fBy4yf/view?usp=sharing', // Add your resume link here
     email: 'mailto:shouriyatayal1234@gmail.com',
     githubUsername: 'iSHOURIYA',
   },

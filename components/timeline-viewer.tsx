@@ -1,9 +1,10 @@
 import { TimelineViewerData } from '@/types/TimelineViewer.types';
 
 const TimelineViewer = ({ data }: { data: TimelineViewerData[] }) => {
+  const sorted = [...data].sort((a, b) => (b.latest ? 1 : 0) - (a.latest ? 1 : 0));
   return (
     <ol className="relative mb-10 border-gray-200 border-s dark:border-gray-700">
-      {data.map((item, index) => {
+      {sorted.map((item, index) => {
         return (
           <li className="mb-10 ms-6" key={index}>
             <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
