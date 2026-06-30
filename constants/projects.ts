@@ -174,7 +174,7 @@ export const projects = [
     feedback: true,
     links: {
       live: 'https://insideiim.shouriya.tech',
-      github: 'https://github.com/iSHOURIYA/ai-investment-agent',
+      github: 'https://github.com/iSHOURIYA/InsideIIM_B',
     },
   },
   {
