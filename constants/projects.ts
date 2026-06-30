@@ -41,7 +41,6 @@ export const projects = [
       github: 'https://github.com/iSHOURIYA/GenAff',
     },
   },
-  },
   {
     title: 'FraudNet.AI',
     slug: 'fraudnet-ai',
